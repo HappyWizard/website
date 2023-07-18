@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <title>Bunny Game</title>
+</head>
+<body>
+      <div id="Game_header1" class="Bunny_header1">
+            <h2 style="color: #f74f07"> 🥕RUNNNN!! WOLVESSS!🐺</h2>
+            <button id="Button1" class="GoButton" onclick="startBunnyGame()">
+                  <span>Go! </span> 
+            </button>
+            <h3 id='bunnyScore' style="color:#f73c02; padding:1px"></h3>
+      </div>
+      <div id="Game_box1" class="Bunny_box1">
+            <div id="BackgroundContainer">
+                  <img src="Images/sunsetFarm.jpg" alt="Background Image">
+                  <img src="Images/sunsetFarm.jpg" alt="Background Image">
+                  <img src="Images/sunsetFarm.jpg" alt="Background Image">
+                  <img src="Images/sunsetFarm.jpg" alt="Background Image">
+                  <img src="Images/sunsetFarm.jpg" alt="Background Image">
+            </div>
+            <div id="Bunny"></div>
+            <div id="Wolf"></div>
+      </div>
+
+      <div id = "myModal" class="modal">
+            <div class="modal-content">
+                  <h2>YOU JUST GOT EATEN BY THE WOLFFF!!💢</h2>
+                  <img src="Images/rage.gif" width="600" height="500">
+            </div>
+      </div>
+      <div id = "myModal2" class="modal">
+            <div class="modal-content">
+                  <h2>YOU WON!🍻🎉</h2>
+                  <img src="Images/happy.gif" width="600" height="500">
+                  <script src="confetti.js"></script>
+            </div>
+      </div>
+
+      <script src="home.js"></script>
+</body>
+</html>
