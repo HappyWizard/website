@@ -1,6 +1,11 @@
 html{
       zoom:80%;
 }
+@media screen and (max-width: 700px) {
+      html{
+            zoom:50%;
+      }
+}
 .Bunny_header1{
       margin:auto;
       text-align:center;
