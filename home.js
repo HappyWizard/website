@@ -6,6 +6,7 @@ let Wolf = document.getElementById("Wolf");
 const bunnyJumping = new Audio('soundEffect/boing.mp3');
 const youWon = new Audio('soundEffect/successTrumpets.mp3');
 const rageScream = new Audio('soundEffect/Screaming.mp3');
+const lostScream = new Audio('soundEffect/dundundun.mp3');
 const backgroundMusic = new Audio('soundEffect/MonkeySong.mp3')
 
 function startBunnyGame(){   
@@ -72,7 +73,9 @@ let checkDead = setInterval(function(){
       if (WolfLeft < 50 && WolfLeft > 0 && BunnyTop >150 && flag == 1){
             // lOSING
             backgroundMusic.pause();
-            rageScream.play();
+            // rageScream.play();
+            lostScream.volume = 0.3;
+            lostScream.play();
             Wolf.style.animation = 'none';
             Wolf.style.display = 'none';
             BackgroundContainer.classList.remove("animateBackground");
