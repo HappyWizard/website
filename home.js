@@ -5,7 +5,7 @@ let Bunny = document.getElementById("Bunny");
 let Wolf = document.getElementById("Wolf");
 const bunnyJumping = new Audio('soundEffect/boing.mp3');
 const youWon = new Audio('soundEffect/successTrumpets.mp3');
-const rageScream = new Audio('soundEffect/Screaming.mp3');
+// const rageScream = new Audio('soundEffect/Screaming.mp3');
 const lostScream = new Audio('soundEffect/dundundun.mp3');
 const backgroundMusic = new Audio('soundEffect/MonkeySong.mp3')
 
