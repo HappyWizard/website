@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/4fcd0e95-e291-4473-adf3-e0c55de6d7a2)
+
 Game Lore:
 Long ago there lived a legendary rabbit. His name is Usagyuuun. Usagyuuun is a “rabbit that’s half made out of mochi and moves at the speed of light.”
 
